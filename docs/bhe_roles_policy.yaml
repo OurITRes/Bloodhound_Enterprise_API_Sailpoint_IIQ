@@ -1,0 +1,10 @@
+version: 1
+metadata:
+  name: bhe-rbac-policy
+scopes:
+  - name: PrivilegeZone:Tier0
+  - name: PrivilegeZone:Tier1-Infra
+  - name: PrivilegeZone:Tier1-Apps
+  - name: PrivilegeZone:Tier2-User
+  - name: PrivilegeZone:Finance
+  - name: PrivilegeZone:R&D
